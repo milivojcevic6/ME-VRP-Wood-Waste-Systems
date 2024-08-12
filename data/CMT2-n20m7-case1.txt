@@ -1,0 +1,43 @@
+VEHICLES1	VEHICLES2	CAPA1	CAPA2	P   T   M   W   F   W1  W2  k
+5		    8		    7		6	    2   2   2   10  10   1  0   3
+
+D LOCATION	XCOORD		YCOORD
+0		22	22
+1		30	65
+
+P LOCATION	XCOORD		YCOORD		CAPACITY
+0		55	    60	    2
+1		55	    40      5
+
+T LOCATION	XCOORD		YCOORD		CAPACITY
+0		58	    15      4
+1		35	    40     3
+
+M LOCATION	XCOORD		YCOORD		CAPACITY
+0		40	    20      6
+1		12	    50      5
+
+W CLIENT		XCOORD		YCOORD		DEMAND
+0		36	    26    2
+1		21	    45    2
+2	    45	    35    1
+3	    55	    20    2
+4	    33	    34    1
+5	    50	    50    2
+6	    55	    45    1
+7	    26	    59    1
+8	    40	    66    1
+9	    55	    65    1
+
+F CLIENT		XCOORD		YCOORD		DEMAND
+0	    35	    51    1
+1	    62	    35    3
+2	    62	    57    2
+3	    62	    24    1
+4	    21	    36    1
+5	    33	    44    1
+6	    9	    56    2
+7	    62	    48    1
+8	    66	    14    1
+9	    44	    13    1
+
