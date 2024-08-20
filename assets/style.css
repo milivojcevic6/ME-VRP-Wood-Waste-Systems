@@ -1,0 +1,74 @@
+/* assets/style.css */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#graph {
+    height: 100vh !important;
+}
+
+.menu-container {
+    width: 20%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+    border-right: 1px solid #dee2e6;
+    position: fixed; /* Fix the menu position */
+    top: 0;
+    bottom: 0;
+    overflow-y: auto; /* Scroll if content overflows */
+}
+
+.menu-container h2 {
+    margin-top: 0;
+}
+
+.menu-container input,
+.menu-container button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.menu-container button {
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.menu-container button:hover {
+    background-color: #0056b3;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.graph-container {
+    width: 80%;
+    float: right;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden; /* Ensure no overflow */
+    position: absolute; /* Position next to the fixed menu */
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+.dash-debug-menu__outer {
+visibility: hidden !important;
+}
+
+.dash-debug-menu {
+visibility: hidden !important;
+}
