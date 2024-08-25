@@ -1,0 +1,4 @@
+dash==2.17.1
+networkx==3.2.1
+numpy==2.1.0
+plotly==5.22.0
